@@ -28,71 +28,61 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container m-5 row justify-content-around">
+    <div class="container">
       <!-- Timeblocks go here -->
       <ul id="timeblocks">
-      <div class="time-block col">9AM
-        <form><textarea type="textarea" class="textarea" value="">
-          </textarea>
-          <input type="submit" name="Submit" class="saveBtn">
-          </input>
-        </form>>
+      <div class="time-block row">
+        <div class="9time col-md-2">9AM</div>
+        <textarea type="textarea" id="0900" class="textarea description time-block col-md-8" value=""></textarea>
+        <button type="button" id="0900save" class="saveBtn col-md-2">Save</button>
       </div>
-      <div class="time-block">10AM
-        <form><textarea type="textarea" class="textarea" value="">
-          </textarea>
-          <input type="submit" name="Submit" class="saveBtn">
-          </input>
-        </form>>
+
+      <div class="time-block row">
+        <div class="10time col-md-2">10AM</div>
+        <textarea type="textarea" id="1000" class="textarea description time-block col-md-8" value=""></textarea>
+        <button type="button" id="1000save" class="saveBtn col-md-2">Save</button>
       </div>
-      <div class="time-block">11AM
-        <form><textarea type="textarea" class="textarea" value="">
-          </textarea>
-          <input type="submit" name="Submit" class="saveBtn">
-          </input>
-        </form>>
+
+      <div class="time-block row">
+        <div class="11time col-md-2">11 AM</div>
+        <textarea type="textarea" id="1100" class="textarea description time-block col-md-8" value=""></textarea>
+        <button type="button" id="1100save" class="saveBtn col-md-2">Save</button>
+      </div> 
+
+      <div class="time-block row">
+        <div class="12time col-md-2">12PM</div>
+        <textarea type="textarea" id="1200" class="textarea description time-block col-md-8" value=""></textarea>
+        <button type="button" id="1200save" class="saveBtn col-md-2">Save</button>     
       </div>
-      <div class="time-block">12PM
-        <form><textarea type="textarea" class="textarea" value="">
-          </textarea>
-          <input type="submit" name="Submit" class="saveBtn">
-          </input>
-        </form>>
+
+      <div class="time-block row">
+        <div class="13time col-md-2">1PM</div>
+        <textarea type="textarea" id="1300" class="textarea description time-block col-md-8" value=""></textarea>
+          <button type="button" id="1300save" class="saveBtn col-md-2">Save</button>  
       </div>
-      <div class="time-block">1PM
-        <form><textarea type="textarea" class="textarea" value="">
-          </textarea>
-          <input type="submit" name="Submit" class="saveBtn">
-          </input>
-        </form>>
+
+      <div class="time-block row">
+        <div class="14time col-md-2">2PM</div>
+        <textarea type="textarea" id="1400" class="textarea description time-block col-md-8" value=""></textarea>
+        <button type="button" id="1400save" class="saveBtn col-md-2">Save</button>
       </div>
-      <div class="time-block">2PM
-        <form><textarea type="textarea" class="textarea" value="">
-          </textarea>
-          <input type="submit" name="Submit" class="saveBtn">
-          </input>
-        </form>>
+
+      <div class="time-block row">
+        <div class="15time col-md-2">3PM</div>
+        <textarea type="textarea" id="1500" class="textarea time-block col-md-8 description" value=""></textarea>
+        <button type="button" id="1500save" class="saveBtn col-md-2">Save</button>
       </div>
-      <div class="time-block">3PM
-        <form><textarea type="textarea" class="textarea" value="">
-          </textarea>
-          <input type="submit" name="Submit" class="saveBtn">
-          </input>
-        </form>>
+
+      <div class="time-block row">
+        <div class="16time col-md-2">4PM</div>
+        <textarea type="textarea" id="1600" class="textarea time-block col-md-8 description " value=""></textarea>
+        <button type="button" id="1600save" class="saveBtn col-md-2">Save</button>
       </div>
-      <div class="time-block">4PM
-        <form><textarea type="textarea" class="textarea" value="">
-          </textarea>
-          <input type="submit" name="Submit" class="saveBtn">
-          </input>
-        </form>>
-      </div>
-      <div class="time-block">5PM
-        <form><textarea type="textarea" class="textarea" value="">
-          </textarea>
-          <input type="submit" name="Submit" class="saveBtn">
-          </input>
-        </form>>
+
+      <div class="time-block row">
+        <div class="17time col-md-2">5PM</div>
+        <textarea type="textarea" id="1700" class="textarea time-block col-md-8 description" value=""></textarea>
+        <button type="button" id="1700save" class="saveBtn col-md-2">Save</button>
       </div>
       </ul>
     </div>
